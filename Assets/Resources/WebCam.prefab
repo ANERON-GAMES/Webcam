@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3668543958938290604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73303323001985055}
+  - component: {fileID: 1781233343069842843}
+  m_Layer: 0
+  m_Name: WebCam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &73303323001985055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3668543958938290604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1781233343069842843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3668543958938290604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617406b92fcb7ff439e808ae5a5779fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  annotatableScreen: {fileID: 0}
+  autoFit: {fileID: 0}
+  allUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  headPoint: {fileID: 0}
+  leftArm: []
+  rightArm: []
+  leftLeg: []
+  rightLeg: []
+  debug: {fileID: 0}
+  textMode: {fileID: 0}
+  zValue: 2.5772884
+  referenceZ: 2.4
+  textPositionZ: {fileID: 0}
+  bulgeDistortion: {fileID: 4800000, guid: 36f8e20b5141f174aa4bc50c173b489f, type: 3}
+  enableBigHead: 1
+  textureHead: {fileID: 2800000, guid: 9b680393fc407e0409405bd7cb5d6774, type: 3}
+  centerOffsetHead: {x: 0, y: 0}
+  radiusHead: 0.5
+  scaleHead: {x: 1, y: 1}
+  strengthHead: 0.1
+  softnessHead: 0.05
+  featherDistanceHead: 0.425
+  enableBigBody: 1
+  textureBody: {fileID: 2800000, guid: 9b680393fc407e0409405bd7cb5d6774, type: 3}
+  centerOffsetBody: {x: 0, y: 0}
+  radiusBody: 0.675
+  scaleBody: {x: 0.63, y: 1}
+  strengthBody: 2.41
+  softnessBody: 0.05
+  featherDistanceBody: 0.695
+  textureLeftHand: {fileID: 2800000, guid: 9b680393fc407e0409405bd7cb5d6774, type: 3}
+  centerOffsetLeftHand: {x: -0.03, y: 0.2}
+  radiusLeftHand: 0.732
+  scaleLeftHand: {x: 0.18, y: 0.52}
+  strengthLeftHand: 5
+  softnessLeftHand: 0.404
+  featherDistanceLeftHand: 0.181
+  textureRightHand: {fileID: 2800000, guid: 9b680393fc407e0409405bd7cb5d6774, type: 3}
+  centerOffsetRightHand: {x: 0.03, y: 0.2}
+  radiusRightHand: 0.732
+  scaleRightHand: {x: 0.17, y: 0.52}
+  strengthRightHand: 5
+  softnessRightHand: 0.494
+  featherDistanceRightHand: 0.158
+  enableBigLeftArm: 1
+  textureLeftArm: {fileID: 2800000, guid: 7022b1db7b57fca44b62f25c646e11cc, type: 3}
+  centerOffsetLeftArm: {x: 0, y: -0.15}
+  radiusLeftArm: 0.2
+  scaleLeftArm: {x: 0.66, y: 1.83}
+  strengthLeftArm: 2.68
+  softnessLeftArm: 0.107
+  featherDistanceLeftArm: 0.5
+  paddingLeftArmSegment1: {x: 0, y: 0.27}
+  paddingLeftArmSegment2: {x: 0, y: 0}
+  enableBigRightArm: 1
+  textureRightArm: {fileID: 2800000, guid: 7022b1db7b57fca44b62f25c646e11cc, type: 3}
+  centerOffsetRightArm: {x: 0, y: -0.15}
+  radiusRightArm: 0.2
+  scaleRightArm: {x: 0.66, y: 1.83}
+  strengthRightArm: 2.68
+  softnessRightArm: 0.107
+  featherDistanceRightArm: 0.5
+  paddingRightArmSegment1: {x: 0, y: 0.27}
+  paddingRightArmSegment2: {x: 0, y: 0}
+  enableBigLeftLeg: 1
+  textureLeftLeg: {fileID: 2800000, guid: 7022b1db7b57fca44b62f25c646e11cc, type: 3}
+  centerOffsetLeftLeg: {x: 0, y: 0}
+  radiusLeftLeg: 0.312
+  scaleLeftLeg: {x: 1, y: 1}
+  strengthLeftLeg: 2
+  softnessLeftLeg: 0.43
+  featherDistanceLeftLeg: 1
+  paddingLeftLegSegment1: {x: 0, y: 0.27}
+  paddingLeftLegSegment2: {x: 0, y: 0}
+  enableBigRightLeg: 1
+  textureRightLeg: {fileID: 2800000, guid: 7022b1db7b57fca44b62f25c646e11cc, type: 3}
+  centerOffsetRightLeg: {x: 0, y: 0}
+  radiusRightLeg: 0.312
+  scaleRightLeg: {x: 1, y: 1}
+  strengthRightLeg: 2
+  softnessRightLeg: 0.43
+  featherDistanceRightLeg: 1
+  paddingRightLegSegment1: {x: 0, y: 0.27}
+  paddingRightLegSegment2: {x: 0, y: 0}
