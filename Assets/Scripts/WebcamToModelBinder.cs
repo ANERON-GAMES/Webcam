@@ -61,7 +61,7 @@ public class WebcamToModelBinder : MonoBehaviour
     private int currentLoop = 0;
     private float startFlashTimer = 0f;
     private bool showStartFlash = false;
-    private float lastRepAccuracy = 0f;               // точность предыдущего повтора
+    private float lastRepAccuracy = 0f;               // accuracy of the previous repetition
     private List<float> repAverages = new List<float>();
 
     private GameObject[] humans;
@@ -299,7 +299,7 @@ public class WebcamToModelBinder : MonoBehaviour
                 countdownTimer = 0f;
                 currentAccuracy = 0f;
                 sessionAccuracies.Clear();
-                repAverages.Clear(); // очищаем для нового запуска
+                repAverages.Clear(); // clear for a new launch
                 instructionText = "Stand in starting position";
                 instructionColor = Color.yellow;
                 accuracyText = "";
@@ -369,7 +369,7 @@ public class WebcamToModelBinder : MonoBehaviour
 
             if (playbackIndex >= recordedFrames.Count)
             {
-                // Считаем среднюю по завершённому повтору
+                // We calculate the average for the completed repetition
                 if (sessionAccuracies.Count > 0)
                 {
                     float repSum = 0f;
@@ -392,7 +392,6 @@ public class WebcamToModelBinder : MonoBehaviour
                 {
                     isPlayback = false;
 
-                    // Один чистый лог
                     if (repAverages.Count > 0)
                     {
                         StringBuilder logBuilder = new StringBuilder();

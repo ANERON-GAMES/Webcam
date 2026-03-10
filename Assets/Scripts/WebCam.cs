@@ -364,7 +364,7 @@ public class WebCam : MonoBehaviour
             Debug2.LogWarning("[WebCam] RawImage component not found on Annotatable Screen.");
             return;
         }
-        //
+
         if (bulgeDistortion != null)
         {
             bulgeMaterial = new Material(bulgeDistortion);
@@ -398,7 +398,7 @@ public class WebCam : MonoBehaviour
         else
         {
             rawImage.material = bulgeMaterial;
-            SetMaterialParameters(); // Refresh parameters if needed
+            SetMaterialParameters();
         }
     }
     public void ToggleLeftArm()
